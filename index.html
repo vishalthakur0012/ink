@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YYC INK</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- MDB CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <!-- Google Fonts CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!--=====================for desktop====================-->
+
+    <section class="topbar-area for-desktop">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="topbar-logo">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="topbar-right-area">
+                        <div class="topbar-phone-box">
+                            <div class="phone-icon">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <div class="phone-text">
+                                <span>PHONE</span>
+                                <a href="">1234567890</a>
+                            </div>
+                        </div>
+                        <div class="topbar-email-box">
+                            <div class="email-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div class="email-text">
+                                <span>EMAIL</span>
+                                <a href="">abc@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <header class="navbar-area for-desktop">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg ">
+                <!-- Container wrapper -->
+                <div class="container px-0">
+                    <!-- Toggle button -->
+                    <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Navbar brand -->
+                        <div class="navbar-brand">
+                            <div class="dropdown">
+                                <button class="categories-btn" type="button" id="dropdownMenuButton"
+                                    data-mdb-dropdown-init data-mdb-ripple-init aria-expanded="false">
+                                    <span class="categories-icon"><i class="fa-solid fa-list-ul"></i></span>
+                                    Shop By Categories
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Left links -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!-- Left links -->
+                    </div>
+                    <!-- Collapsible wrapper -->
+
+                    <!-- Right elements -->
+                    <div class="d-flex align-items-center">
+                        <!-- Icon -->
+
+                        <div class="search-area">
+                            <div class="containers">
+                                <input checked="" class="checkbox" type="checkbox">
+                                <div class="mainbox">
+                                    <div class="iconContainer">
+                                        <i class="fa-solid fa-magnifying-glass search_icon"></i>
+                                    </div>
+                                    <input class="search_input" placeholder="Search Product" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wishlist-area">
+                            <a class="text-reset" href="#">
+                                <i class="fa-regular fa-heart"></i>
+                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                            </a>
+                        </div>
+
+                        <div class="cart-area">
+                            <a class="text-reset" href="#">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                            </a>
+                        </div>
+
+                        <div class="avatar-area">
+                            <div class="dropdown">
+                                <a data-mdb-dropdown-init class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                                    href="#" id="navbarDropdownMenuAvatar" role="button" aria-expanded="false">
+                                    <img src="images/img_avatar.png" class="rounded-circle" height="35" alt=""
+                                        loading="lazy" />
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                    <li>
+                                        <a class="dropdown-item" href="#">My profile</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Avatar -->
+
+                    </div>
+                    <!-- Right elements -->
+                </div>
+                <!-- Container wrapper -->
+            </nav>
+            <!-- Navbar -->
+        </div>
+
+    </header>
+
+
+    <!--=====================for desktop====================-->
+
+
+
+
+    <!--=====================for Mobile====================-->
+
+
+
+
+    <section class="topbar-area for-mobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mobile-topbar">
+                        <div class="topbar-logo">
+                            <a href="index.html"><img src="images/logo.png" alt=""></a>
+                        </div>
+
+                        <div class="mobile-topbar-right">
+                            <div class="wishlist-area">
+                                <a class="text-reset" href="#">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                                </a>
+                            </div>
+    
+                            <div class="cart-area">
+                                <a class="text-reset" href="#">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                                </a>
+                            </div>
+    
+                            <div class="avatar-area">
+                                <div class="dropdown">
+                                    <a data-mdb-dropdown-init class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                                        href="#" id="navbarDropdownMenuAvatar" role="button" aria-expanded="false">
+                                        <img src="images/img_avatar.png" class="rounded-circle" height="35" alt=""
+                                            loading="lazy" />
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+                                        <li>
+                                            <a class="dropdown-item" href="#">My profile</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Settings</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+ 
+    <div class="search-area for-mobile">
+        <div class="container">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+        </div>
+    </div>
+
+
+    <header class="navbar-area for-mobile">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg ">
+                <!-- Container wrapper -->
+                <div class="container px-0">
+
+                    <div class="navbar-brand">
+                        <div class="dropdown">
+                            <button class="categories-btn" type="button" id="dropdownMenuButton"
+                                data-mdb-dropdown-init data-mdb-ripple-init aria-expanded="false">
+                                <span class="categories-icon"><i class="fa-solid fa-list-ul"></i></span>
+                                Shop By Categories
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="search-area for-tab">
+                        <div class="container">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                              </form>
+                        </div>
+                    </div>
+
+
+                    <!-- Toggle button -->
+                    <button data-mdb-collapse-init class="navbar-toggler" type="button"
+                        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    
+
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Navbar brand -->
+                        
+                        <!-- Left links -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <!-- Left links -->
+                    </div>
+                    <!-- Collapsible wrapper -->
+
+                </div>
+                <!-- Container wrapper -->
+            </nav>
+            <!-- Navbar -->
+        </div>
+
+    </header>
+
+
+    <!--=====================for Mobile====================-->
+
+
+    <section class="banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="banner-content">
+                        <h1>We Give Perfect Solutions of Your Problem Print</h1>
+                        <div class="btn-area-banner">
+                            <button type="button" class="btn-shop">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="banner-img">
+                        <img src="images/banner-img/banner-printer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-work-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <div class="work-icon">
+                            <img src="images/icons/delivery-truck.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <h3>Free Shipping</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <div class="work-icon">
+                            <img src="images/icons/message.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <h3>Quick Response 24*7</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="work-box">
+                        <div class="work-icon">
+                            <img src="images/icons/rating.png" alt="">
+                        </div>
+                        <div class="work-content">
+                            <h3>Positive Rating</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-area">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="heading">
+                    <h3>Categories</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="tf_categories_slide">
+
+                    <div class="categories-box">
+                        <div class="inner-categories">
+                            <img src="images/categories-img/slide1.png" alt="">
+                            <h3>Canon Ink & Toner</h3>
+                        </div>
+                    </div>
+
+                    <div class="categories-box">
+                        <div class="inner-categories">
+                            <img src="images/categories-img/slide2.png" alt="">
+                            <h3>Canon Ink & Toner</h3>
+                        </div>
+                    </div>
+                    <div class="categories-box">
+                        <div class="inner-categories">
+                            <img src="images/categories-img/slide3.png" alt="">
+                            <h3>Canon Ink & Toner</h3>
+                        </div>
+                    </div>
+                    <div class="categories-box">
+                        <div class="inner-categories">
+                            <img src="images/categories-img/slide4.png" alt="">
+                            <h3>Canon Ink & Toner</h3>
+                        </div>
+                    </div>
+                    <div class="categories-box">
+                        <div class="inner-categories">
+                            <img src="images/categories-img/slide5.png" alt="">
+                            <h3>Canon Ink & Toner</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-product-area">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="heading">
+                    <h3>Features Products</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-img">
+                            <img src="images/product-img/product1.png" alt="">
+                        </div>
+                        <div class="product-content">
+                            <h3>Corporate Popular</h3>
+                            <p>$36.00</p>
+                            <button type="button" class="cart-btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="why-choose-us-area">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-lg-7">
+                    <div class="why-choose-us-content">
+                        <h3>Why Choose Us</h3>
+                        <h4 class="heading-why-choose-us">Lorem ipsum dolor sit amet consectetur Mauris biben</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur. Eleifend convallis sodales sed auctor. In tortor
+                            nulla pulvinar pellentesque. Laoreet consectetur nisl ornare sapien cursus sit nec.
+                            Consectetur sit viverra ut amet nec vulputate tincidunt. Lorem ipsum dolor sit </p>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="why-choose-box">
+                                    <div class="icon-img">
+                                        <img src="images/icons/rocket-icon.png" alt="">
+                                    </div>
+                                    <div class="tf-why-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="why-choose-box">
+                                    <div class="icon-img">
+                                        <img src="images/icons/rocket-icon.png" alt="">
+                                    </div>
+                                    <div class="tf-why-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="why-choose-box">
+                                    <div class="icon-img">
+                                        <img src="images/icons/rocket-icon.png" alt="">
+                                    </div>
+                                    <div class="tf-why-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="why-choose-box">
+                                    <div class="icon-img">
+                                        <img src="images/icons/rocket-icon.png" alt="">
+                                    </div>
+                                    <div class="tf-why-choose-content">
+                                        <h4>Corporate Popular</h4>
+                                        <p>Lorem ipsum dolor sit amet ullapeuu. Interdum sit am</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-5">
+                    <div class="why-choose-us-img">
+                        <img src="images/why-choose-us.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="brand-logo-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="brand_img_slide">
+                        <img src="images/brand-logo/slide1.png" alt="">
+                        <img src="images/brand-logo/slide2.png" alt="">
+                        <img src="images/brand-logo/slide3.png" alt="">
+                        <img src="images/brand-logo/slide4.png" alt="">
+                        <img src="images/brand-logo/slide5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="appointment-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5">
+                    <div class="appointment-img">
+                        <img src="images/appointment-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="appointment-form">
+                        <h3>GET A QUOTE</h3>
+                        <form class="row g-3 needs-validation" novalidate>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="phone" class="form-control" pattern="\d+" placeholder="Phone No" required>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                            </div>
+
+
+                            <div class="col-md-12 col-lg-7">
+                                <div class="recaptcha-btn">
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 col-lg-5">
+                                <div class="form-btn">
+                                    <button class="appointment-btn" type="submit">Submit form</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="tf_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="tf_footer_details">
+                        <img src="images/footer-logo.png" alt="">
+
+                        <p>Lorem ipsum dolor sit amet consectetur. Consequat neque adipiscing sit turpis nisi. Aliquam
+                            neque bibendum risus at. Venenatis nibh interdum ultrices orci.
+                        </p>
+                        <div class="social-icons-footer">
+                            <li><a href=""><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="tf_footer_links">
+                        <h3 class="footer-heading">Our Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="tf_footer_services">
+                        <h3 class="footer-heading">Our Categories</h3>
+                        <ul>
+                            <li><a href="">Lorem ipsum</a></li>
+                            <li><a href="">Lorem ipsum</a></li>
+                            <li><a href="">Lorem ipsum</a></li>
+                            <li><a href="">Lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="tf_footer_location">
+                        <h3 class="footer-heading">Address</h3>
+                        <ul class="footer-contact-area">
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Lorem ipsum dolor sit amet.</span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-contact-area-text">Phone No: <a href="tel:+1234567890"></a>
+                                    +91-1234567890 </span>
+                            </li>
+                            <li>
+                                <span class="footer-contact-area-icon">
+                                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                <span class="footer-contact-area-text"><a href="mailto:abc@gmail.com">
+                                        abc@gmail.com</a></span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tf_copyright">
+                        <p>Copyright © 2024 YYC INK | Design &amp; Development By <a target="_blank"
+                                href="https://eirmonsolutions.com.au/">Eirmon Solutions</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB JS -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/348356cdb0.js" crossorigin="anonymous"></script>
+
+    <!-- Slick Carousel JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Your custom script -->
+    <script src="css/main.js"></script>
+
+    <script>
+        $('.tf_categories_slide').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

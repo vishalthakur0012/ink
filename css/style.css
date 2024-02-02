@@ -1,0 +1,1075 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*======================= Tob Bar Css Start ======================*/
+
+
+.topbar-right-area {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.topbar-phone-box {
+    display: flex;
+    margin-right: 25px;
+}
+
+.topbar-email-box {
+    display: flex;
+}
+
+section.topbar-area {
+    padding: 24px 0 0;
+}
+
+.topbar-logo img {
+    max-width: 180px;
+}
+
+section.topbar-area .row {
+    align-items: center;
+}
+
+.phone-text span {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.email-text span {
+    display: block;
+}
+
+.phone-text a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.phone-icon {
+    margin-right: 10px;
+}
+
+.email-icon {
+    margin-right: 10px;
+}
+
+.phone-icon i {
+    transform: rotate(80deg);
+    font-size: 35px;
+    color: #f00;
+    display: inline-block;
+}
+
+.email-icon i {
+    font-size: 35px;
+    color: #f00;
+    display: inline-block;
+}
+
+.email-text span {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.email-text a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mobile-topbar {
+    display: none;
+}
+
+
+section.topbar-area.for-mobile {
+    display: none;
+}
+
+header.navbar-area.for-mobile {
+    display: none;
+}
+
+.mobile-topbar {
+    display: block;
+}
+
+.mobile-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-area.for-mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================= Tob Bar Css End ======================*/
+
+
+/*======================= Navbar Area Css STart ======================*/
+
+header.navbar-area nav.navbar.navbar-expand-lg {
+    box-shadow: none;
+    padding: 0;
+}
+
+.categories-btn {
+    border-radius: 6px 6px 0px 0px;
+    background: #F00;
+    border: none;
+    width: 230px;
+    height: 60px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+span.categories-icon {
+    margin-right: 5px;
+}
+
+span.badge.rounded-pill.badge-notification.bg-danger {
+    background-color: #F00 !important;
+}
+
+ul.navbar-nav li.nav-item {
+    margin-right: 17px;
+}
+
+ul.navbar-nav li a {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+ul.dropdown-menu {
+    width: 100%;
+}
+
+ul.navbar-nav li a:hover {
+    color: #F00;
+}
+
+
+.containers {
+    position: relative;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+.mainbox {
+    box-sizing: border-box;
+    position: relative;
+    width: 230px;
+    height: 35px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    background-color: #ff0000;
+    transition: all 0.3s ease;
+}
+
+.checkbox:focus {
+    border: none;
+    outline: none;
+}
+
+.checkbox:checked {
+    right: 12px;
+}
+
+.checkbox:checked~.mainbox {
+    width: 35px;
+}
+
+.checkbox:checked~.mainbox .search_input {
+    width: 0;
+    height: 0px;
+}
+
+.checkbox {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    top: 2px;
+    z-index: 9;
+    cursor: pointer;
+    appearance: none;
+}
+
+.search_input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.search_input::placeholder {
+    color: rgba(255, 255, 255, 0.776);
+}
+
+.iconContainer {
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+.search_icon {
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+}
+
+a.text-reset i {
+    font-size: 20px;
+    color: #000;
+    transition: .5s;
+}
+
+span.badge.rounded-pill.badge-notification.bg-danger {
+    background-color: #F00 !important;
+    top: 12px;
+}
+
+a.text-reset i:hover {
+    color: #F00;
+}
+
+.cart-area {
+    margin: 8px 18px 0px 10px;
+}
+
+.wishlist-area {
+    margin: 8px 10px 0px 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand .dropdown ul.dropdown-menu li a.dropdown-item {
+    color: red;
+}
+
+/*======================= Navbar Area Css End ======================*/
+
+
+/*======================= Banner Area Css Start ======================*/
+section.banner-area {
+    background-image: url(../images/banner-img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 80px 0 0 0;
+}
+
+.banner-img img {
+    max-width: 440px;
+}
+
+.banner-img  {
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+button.btn-shop {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    width: 140px;
+    height: 40px;
+    padding: 6px 6px 6px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    background: #006AD0;
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    border-radius: 5px;
+}
+
+button.btn-shop::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 550px;
+        height: 550px;
+        margin: auto;
+        background: red;
+        border-radius: 50%;
+        z-index: -1;
+        -webkit-transform-origin: top center;
+        transform-origin: top center;
+        -webkit-transform: translateX(-50%) translateY(-5%) scale(0.4);
+        transform: translateX(-50%) translateY(-5%) scale(0.4);
+        -webkit-transition: -webkit-transform .9s;
+        transition: -webkit-transform .9s;
+        transition: transform .9s;
+        transition: transform .9s, -webkit-transform .9s;
+}
+
+
+button.btn-shop:hover:before {
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s;
+    -webkit-transform: translateX(-45%) translateY(0) scale(1);
+    transform: translateX(-45%) translateY(0) scale(1);
+    -webkit-transform-origin: bottom center;
+    transform-origin: bottom center;
+}
+
+
+
+/*======================= Banner Area Css End ======================*/
+
+
+/*======================= Feature work Area Css Start ======================*/
+
+
+.work-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px 20px;
+    box-shadow: inset 1px 1px 6px #dcdcdc, inset 1px 1px 6px #dcdcdc;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+section.feature-work-area {
+    padding: 50px 0 40px;
+}
+
+
+.work-icon img {
+    max-width: 60px;
+}
+
+.work-content {
+    margin-left: 18px;
+}
+
+.work-content h3 {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-bottom: 8px;
+}
+
+.work-content p {
+    color: #4f4f4f;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.work-box:hover {
+   transform: translateY(-5px);
+   box-shadow: inset 1px 1px 6px #dcdcdc, inset 1px 1px 6px #dcdcdc;
+}
+
+
+
+/*======================= Feature work Area Css End ======================*/
+
+
+
+/*======================= Categories Area Css STart ======================*/
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.heading h3 {
+    color: #f00;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Salsa', cursive;
+    letter-spacing: 0.8px;
+}
+
+.categories-box h3 {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.slick-dots li button:before {
+    color: #f00 !important;
+}
+
+
+.slick-dots {
+    bottom: -55px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 13px !important;
+}
+
+section.categories-area {
+    padding: 40px 0 60px;
+    overflow: hidden;
+}
+
+.inner-categories img {
+    max-width: 140px;
+    margin: 0 auto;
+    padding: 6px;
+    transition: .2s;
+}
+
+.inner-categories {
+    box-shadow: inset 1px 1px 6px #dcdcdc, inset 1px 1px 6px #dcdcdc;
+    margin: 20px;
+    height: 220px;
+    width: 230px;
+    border-radius: 5px;
+    transition: ease-in-out;
+}
+
+.inner-categories:hover {
+    border: 2px solid #f00;
+}
+/*======================= Categories Area Css End ======================*/
+
+
+
+
+
+/*======================= Feature Product Area Css Start ======================*/
+.product-content {
+    padding: 20px;
+    text-align: center;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid rgb(216 216 216 / 25%);
+}
+
+.product-content h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 0;
+}
+
+.product-content p {
+    margin: 15px 0;
+    color: #F00;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+button.cart-btn {
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    width: 125px;
+    height: 36px;
+    padding: 6px 6px 6px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    background: #006AD0;
+    box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    border-radius: 5px;
+}
+
+button.cart-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    background: red;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-transform: translateX(-50%) translateY(-5%) scale(0.4);
+    transform: translateX(-50%) translateY(-5%) scale(0.4);
+    -webkit-transition: -webkit-transform .9s;
+    transition: -webkit-transform .9s;
+    transition: transform .9s;
+    transition: transform .9s, -webkit-transform .9s;
+}
+
+
+button.cart-btn:hover:before {
+-webkit-transition: -webkit-transform 1s;
+transition: -webkit-transform 1s;
+transition: transform 1s;
+transition: transform 1s, -webkit-transform 1s;
+-webkit-transform: translateX(-45%) translateY(0) scale(1);
+transform: translateX(-45%) translateY(0) scale(1);
+-webkit-transform-origin: bottom center;
+transform-origin: bottom center;
+}
+
+
+.product-box img {
+    border-radius: 5px 5px 0 0;
+    transition: .5s;
+}
+
+
+.product-box img:hover {
+    transform: scale(1.1);
+}
+
+.product-box {
+    overflow: hidden;
+}
+
+section.feature-product-area {
+    padding: 60px 0 50px;
+}
+
+.product-img {
+    overflow: hidden;
+}
+
+/*======================= Feature Product Area Css End ======================*/
+
+
+
+
+
+/*======================= Why Choose Us  Area Css STart ======================*/
+section.why-choose-us-area {
+    padding: 50px;
+}
+
+.why-choose-us-img img {
+    max-width: 450px;
+}
+
+.why-choose-us-content h3 {
+    color: #f00;
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Salsa', cursive;
+    letter-spacing: 0.8px;
+    margin-bottom: 0;
+}
+
+h4.heading-why-choose-us {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.why-choose-us-content p {
+    color: #4f4f4f;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.why-choose-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px 20px;
+    box-shadow: inset 1px 1px 6px #dcdcdc, inset 1px 1px 6px #dcdcdc;
+    border-radius: 4px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+
+.why-choose-box .icon-img img {
+    max-width: 60px;
+}
+
+.tf-why-choose-content {
+    margin-left: 18px;
+}
+
+
+.why-choose-box .tf-why-choose-content p {
+    margin-bottom: 0;
+}
+
+.tf-why-choose-content h4 {
+    color: #006AD0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
+
+section.why-choose-us-area .container {
+    border: 5px solid #006AD0;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 24px;
+}
+
+
+
+
+/*======================= Why Choose Us Area Css End ======================*/
+
+
+
+/*======================= Brand Slde Img Area Css Start ======================*/
+
+.brand_img_slide {
+   
+    padding: 5px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    animation: marquee 30s linear infinite;
+    justify-content: space-around;
+
+}
+
+.brand_img_slide:hover {
+    animation-play-state: paused;
+   
+}
+
+.brand_img_slide img {
+    display: block;
+    margin: 0 1vw;
+    border-radius: 5px;
+    object-fit: cover;
+    width: 130px;
+}
+
+.brand_img_slide:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+
+   
+
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+section.brand-logo-area {
+    background: #ECECEC;
+    padding: 40px 0;
+}
+
+/*======================= Brand Slde Img Area Css End ======================*/
+
+/*======================= Appointment Area Css Start ======================*/
+
+
+.appointment-img img {
+    max-width: 400px;
+}
+
+.appointment-img {
+   text-align: center;
+}
+
+section.appointment-area {
+    padding: 80px 0;
+}
+
+.appointment-form h3 {
+    color: #F00;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-family: 'Salsa', cursive;
+    margin-bottom: 28px;
+}
+
+.appointment-form input.form-control {
+    background: #E5E5E5;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    border: none;
+    outline: none;
+    border-color: #E5E5E5;
+   
+    padding: 12px 12px;
+}
+
+.form-control:focus {
+    box-shadow: inset 0px 0px 0px 2px #F00;
+    border-color: transparent;
+}
+textarea.form-control:focus {
+    box-shadow: inset 0px 0px 0px 2px #F00 !important;
+}
+
+.appointment-form textarea.form-control {
+    background: #E5E5E5;
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    border: none;
+    outline: none;
+    border-color: #E5E5E5;
+    box-shadow: none;
+    padding: 12px 12px;
+}
+
+.form-btn {
+    text-align: end;
+}
+
+
+button.appointment-btn {
+    border: none;
+    background-color: #006AD0;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*======================= Appointment Area Css End ======================*/
+
+
+/*===============Footer Area area Css Start=================*/
+
+ul.footer-contact-area {
+    padding: 0;
+}
+
+ul.footer-contact-area li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+span.footer-contact-area-icon {
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+span.footer-contact-area-icon i {
+    font-size: 17px;
+}
+
+span.footer-contact-area-text {
+    color: #fff;
+    letter-spacing: 0.6px;
+}
+
+.social-icons-footer {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons-footer li a {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 38px;
+    margin: 5px;
+    color: #F00;
+    display: inline-block;
+    transition: .5s;
+}
+
+.social-icons-footer li a:hover {
+    background-color: #F00;
+    color: #fff;
+}
+
+
+.tf_footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.tf_footer_details img {
+    max-width: 150px;
+    margin-bottom: 30px;
+}
+
+.tf_footer_details p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+h3.footer-heading {
+    color: #fff;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tf_footer_links ul {
+    padding: 0;
+}
+
+.tf_footer_links ul li {
+    padding: 6px 0;
+}
+
+.tf_footer_links ul li a {
+    color: #fff;
+    transition: .5s;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tf_footer_services ul {
+    padding: 0;
+}
+
+.tf_footer_services li {
+    padding: 6px 0;
+}
+
+.tf_footer_services li a {
+    color: #fff;
+    transition: .5s;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tf_footer_services li a:hover{
+    color: #F00;
+}
+
+
+section.copyright-area {
+    padding: 20px 0;
+    background: #006AD0;
+}
+
+.tf_copyright p {
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.tf_footer_links ul li a:hover {
+    color: #F00;
+}
+
+.tf_copyright p a {
+    color: #fff;
+}
+
+
+
+.ft_footer_right a {
+    color: #fff;
+}
+
+span.footer-contact-area-text a {
+    color: #fff;
+}
+
+
+
+/*===============Footer Area area Css End=================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
